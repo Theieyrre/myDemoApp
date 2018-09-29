@@ -67,8 +67,6 @@ public class App
       get("/compute",
       (rq, rs) -> {
         Map map = new HashMap();
-        map.put("In the first form, enter a list of integers seperated by a newline character\nIn the scond form, enter another integer.\nIf this integer is found in the list, the result becomes true\n","");
-        map.put("Type integers with ENTER between them in left box to set searching array\nType ONE integer to right box\n",null);
         map.put("result", "not computed yet!");
         return new ModelAndView(map, "compute.mustache");
       },
