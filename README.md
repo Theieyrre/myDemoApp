@@ -7,5 +7,6 @@ ArraySearch
 		Returns true if given parameter e is found in any of set parameters
 		Returns false if given parameter does not exist in any of set parameters
 
-	
+	Build status image:
+		https://travis-ci.org/Theieyrre/myDemoApp.svg?branch=master	
 
