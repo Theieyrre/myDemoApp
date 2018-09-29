@@ -59,6 +59,8 @@ public class App
         boolean result = App.search(inputList,null,null, input2AsInt);
 
         Map map = new HashMap();
+        map.put("Algorithm loops through given set of integer in first box\n and compares them to given second integer in second box\n",null);
+        map.put("Type integers with ENTER between them in left box to set searching array\nType ONE integer to right box\n",null);
         map.put("result", result);
         return new ModelAndView(map, "compute.mustache");
       }, new MustacheTemplateEngine());
